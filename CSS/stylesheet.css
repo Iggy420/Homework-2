@@ -1,0 +1,36 @@
+
+
+body  {
+        margin: 30px;
+        background-image: url(../images/background2.jpg);
+        background-repeat: repeat;
+}
+.jumbotron {
+    background-image: url("../images/smokingfrenchie.jpg"), url("../images/crown.jpg");
+    background-size: contain;
+    background-repeat:no-repeat, repeat;
+    background-position: right;
+    color: black;
+    font-family: 'Anton', sans-serif;
+  }
+.work {
+    background-color:black;
+}
+.container3 {
+    background-color: burlywood;
+}
+.main-p {
+    color: black;
+    font-size: 30px;
+    align-self: auto;
+}
+
+.footer2 {
+    /* margin-left: 45%; */
+}
+.card {
+    margin-left:
+}
+#bio-image {
+    align-content: flex-start;
+}
