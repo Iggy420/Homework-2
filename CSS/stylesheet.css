@@ -12,12 +12,14 @@ body  {
     background-position: right;
     color: black;
     font-family: 'Anton', sans-serif;
-  }
+    border: 15px outset goldenrod;
+}
 .work {
     background-color:black;
 }
 .container3 {
     background-color: burlywood;
+    border: 15px solid darkgoldenrod;
 }
 .main-p {
     color: black;
@@ -33,4 +35,13 @@ body  {
 }
 #bio-image {
     align-content: flex-start;
+    border: 15px groove darkgoldenrod;
 }
+ .card {
+    border: 5px inset RGB(255,59,59);
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
